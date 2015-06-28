@@ -24,7 +24,8 @@
                 <!-- datetime -->
                 <!-- since we want a weekday we use "EEEE" instead of another format -->
                 <div class="weekday col-xs-4">
-                  {{ day.datetime | date:"EEEE" }}
+                  <!-- {{ day.datetime | date:"EEEE" }} -->
+                  {{ day.datetime | date }}
                 </div>
 
 
